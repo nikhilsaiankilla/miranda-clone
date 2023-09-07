@@ -1,0 +1,500 @@
+@media screen and (max-width: 600px) {
+  /* page 1 styling  */
+  #page-1 {
+    min-height: auto;
+  }
+  #nav {
+    height: 50px;
+  }
+
+  #nav h5{
+    display: none;
+  }
+  
+  #elems {
+    display: none;
+  }
+  #page-1 h1 {
+    line-height: 20rem;
+    margin: 2rem auto;
+    padding: 0;
+  }
+  /* page 2 styling  */
+  #page-2 {
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: -10px;
+    padding: 30px 15px;
+  }
+  #page-2-right {
+    width: 100%;
+    padding: 0;
+  }
+  #page-2-left {
+    width: 100%;
+    padding-right: 0;
+    border: 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #121212;
+    text-align: center;
+  }
+  #page-2-right h1 {
+    font-size: 12.5vw;
+    line-height: 7rem;
+  }
+  #page-2-left h2 {
+    margin-top: 5rem;
+    font-size: 21.8vw;
+    line-height: 100px;
+  }
+  #page-2-left h2 span {
+    font-size: 30.5vw;
+    line-height: 150px;
+  }
+  #page-2-left p {
+    font-size: 2.5rem;
+  }
+  #page-2-left p span {
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+
+  /* page 3 styling  */
+  #page-3 {
+    display: none;
+  }
+
+  /* page 4 styling  */
+  #page-4 {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+  #page-4-left {
+    width: 100%;
+  }
+  #page-4-left-top {
+    flex-direction: column;
+    width: 100%;
+  }
+  #page-4-left-top-left{
+    border: 0;
+  }
+  #page-4-left-top-left,
+  #page-4-left-top-right {
+    width: 100%;
+  }
+  #page-4-left-top-left h4 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+  }
+  #page-4-left-top-right {
+    padding: 0;
+    margin-top: 2rem;
+  }
+  #page-4-right {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin-left: 0;
+  }
+  #page-4-right-top h1 {
+    font-size: 19.9vw;
+  }
+  #page-4-right-top h1 span {
+    font-size: 40vw;
+    line-height: 14rem;
+  }
+  #page-4-right-bottom {
+    display: none;
+  }
+
+  /* page 5 styling  */
+
+  #page-5 {
+    display: none;
+  }
+
+  /* page 6 styling  */
+  #page-6 {
+    padding: 2rem 1.5rem;
+    flex-direction: column-reverse;
+  }
+  #page-6-right {
+    width: 100%;
+  }
+  #page-6-left-top-left img {
+    display: none;
+  }
+  #page-7-top-left img {
+    display: none;
+  }
+  #page-6-left-top-right {
+    width: 100%;
+    font-size: 83.5vw;
+  }
+  #page-6-left-bottom {
+    font-size: 56.7vw;
+    line-height: 15rem;
+  }
+  #page-7-top-left {
+    display: none;
+  }
+  #page-7-top-right {
+    width: 100%;
+    font-size: 30vw;
+    line-height: 12rem;
+  }
+  #page-7-bottom {
+    flex-direction: column-reverse;
+  }
+  #page-7-bottom-right {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+  }
+  #page-7-bottom-right p {
+    font-size: 2.3rem;
+    line-height: 30px;
+  }
+  #page-7-bottom-right h1 {
+    font-size: 22vw;
+    line-height: 108px;
+  }
+  #page-7-bottom-left {
+    width: 100%;
+    font-size: 31.3vw;
+    line-height: 17rem;
+  }
+
+  /* footer styling  */
+  #page-11 ul li{
+    display: none;
+  }
+
+  #page-10 h1{
+    font-size: 6rem;
+  }
+
+  #page-10 h1 span {
+    font-size: 6.5rem;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:767) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* page 1 styling  */
+  #elem1 {
+    width: 50%;
+    margin-right: 10px;
+  }
+  #elem3 {
+    width: 50%;
+    margin-left: 10px;
+  }
+  #elem2 {
+    display: none;
+  }
+
+  #elem1 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #elem3 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+  }
+  #elem1 p,
+  #elem3 p {
+    font-size: 1.5rem;
+  }
+
+  #page-1 h1 {
+    line-height: 22rem;
+  }
+
+  /* page 2 styling  */
+
+  #page-2-left h2 {
+    font-size: 6.8vw;
+    line-height: 72px;
+  }
+  #page-2-left h2 span {
+    font-size: 12.3vw;
+  }
+  #page-2-left p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  #page-2-left p span {
+    margin: 5px;
+    font-size: 4rem;
+    padding: 0px 3px;
+  }
+
+  #page-2-right {
+    padding: 0 0 0 10px;
+  }
+
+  #page-2-right h1 {
+    margin: 30px 0;
+    font-size: 6.8vw;
+    letter-spacing: 1px;
+    line-height: 6rem;
+    font-weight: 100;
+    font-family: canopee;
+  }
+
+  /* page 3 styling  */
+
+  #page-3 h1 {
+    line-height: 19rem;
+  }
+
+  /* page 4 styling  */
+
+  #page-4-left-top-left h1 {
+    font-size: 4.3rem;
+  }
+
+  #page-4-left-top-left h4 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  #page-4-left-top-left p {
+    font-size: 1.5rem;
+  }
+  #page-4-left-top-left p span {
+    font-size: 1.8rem;
+  }
+
+  #page-4-left-top-right #left-image-div {
+    height: 40%;
+  }
+
+  #page-4-left-top-right h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  #page-4-left-top-right p {
+    font-size: 1.2rem;
+  }
+  #page-4-right-top h1 span {
+    line-height: 9rem;
+  }
+
+  #page-4-right-top p {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+
+  #page-4-right-bottom {
+    height: 26%;
+    margin-top: 72px;
+    overflow-y: hidden;
+  }
+
+  #page-4-right-bottom::-webkit-scrollbar {
+    display: none;
+  }
+
+  #page-4-right-bottom h1 {
+    font-size: 4rem;
+    transform: translateX(-26%);
+    line-height: 4rem;
+  }
+  #page-4-right-bottom img {
+    width: 126px;
+  }
+
+  /* page 5 styling  */
+
+  #page-5 {
+    padding: 30px 0;
+  }
+  .awards .left-award p {
+    font-size: 2rem;
+  }
+
+  .awards .left-award h1 {
+    font-size: 3rem;
+  }
+  .awards .right-award h1 {
+    font-size: 8rem;
+    margin-left: 10px;
+  }
+
+  /* page 6 styling  */
+
+  #page-6-left-top-right {
+    font-size: 27.5vw;
+    line-height: 225px;
+  }
+
+  #page-6-left-bottom {
+    font-size: 27vw;
+    line-height: 17rem;
+  }
+
+  #page-7-top-right {
+    font-size: 27.3vw;
+    line-height: 14rem;
+  }
+  #page-7-bottom-left {
+    font-size: 20.3vw;
+    line-height: 20rem;
+  }
+  #page-7-bottom-right p {
+    font-size: 1.8rem;
+    line-height: 19px;
+  }
+
+  #page-7-bottom-right h1 {
+    margin: 5px 0;
+  }
+  #page-11 h1 {
+    font-size: 2rem;
+  }
+
+  #page-11 ul li p {
+    font-size: 1rem;
+  }
+  .developer-name {
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+  .developer-name a {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  #page-11 ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* page 1 styling  */
+  #elem2 h2 {
+    font-size: 4.5rem;
+  }
+  #elem2 h3 {
+    font-size: 3rem;
+  }
+  #elem1 h4 {
+    font-size: 2.4rem;
+  }
+
+  #elem1 p,
+  #elem3 p {
+    font-size: 1.6rem;
+  }
+
+  /* page 2 styling  */
+
+  #page-2-left h2 {
+    font-size: 7vw;
+    line-height: 130px;
+  }
+
+  #page-2-left h2 span {
+    font-size: 13vw;
+  }
+
+  #page-2-right h1 {
+    font-size: 7vw;
+    line-height: 9rem;
+    font-family: canopee;
+  }
+
+  #page-2-left p {
+    margin-top: 10px;
+    font-size: 2.4rem;
+  }
+
+  #page-2-left p span {
+    margin: 10px;
+    font-size: 3rem;
+  }
+
+  /* page 3 styling  */
+
+  #page-3 h1 {
+    font-size: 26.5vw;
+    line-height: 28rem;
+  }
+
+  #page-3 img {
+    width: 35%;
+    height: 100%;
+  }
+
+  /* page 4 styling  */
+
+  #page-4-left-top-left h1 {
+    font-size: 4.6rem;
+  }
+  #page-4-left-top-left h4 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+
+  #page-4-left-top-right h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  #page-4-left-top-right p {
+    font-size: 1.3rem;
+  }
+
+  #page-4-right-top h1 span {
+    font-size: 13vw;
+    line-height: 11rem;
+  }
+
+  #page-4-right-top h1 {
+    font-size: 6.4vw;
+  }
+  #page-4-right-top p {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  #page-4-right-bottom h1 {
+    font-size: 4rem;
+    transform: translateX(-70%);
+  }
+  #page-4-right-bottom img {
+    width: 199px;
+  }
+
+  /* page 6 styling  */
+
+  #page-6-left-top-right {
+    line-height: 224px;
+  }
+
+  #page-6-left-bottom {
+    font-size: 26.5vw;
+    line-height: 27rem;
+  }
+
+  /* page 7 styling  */
+
+  #page-7-top-right {
+    line-height: 22rem;
+  }
+
+  #page-7-bottom-left {
+    line-height: 22rem;
+  }
+  #page-7-bottom-right p {
+    font-size: 1.8rem;
+    line-height: 23px;
+  }
+}
