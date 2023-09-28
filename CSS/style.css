@@ -2,6 +2,10 @@
     font-family: domain;
     src: url(./domain.ttf);
 }
+@font-face{
+    font-family:canopee;
+    src:url(./canopee.ttf);
+}
 *{
     padding: 0;
     margin: 0;
